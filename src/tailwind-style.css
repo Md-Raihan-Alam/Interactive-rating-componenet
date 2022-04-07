@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.round_gray{
+    @apply w-12 h-12 rounded-full bg-normal-dark-blue flex justify-center items-center;
+}
+.round_medium_gray{
+    @apply w-12 h-12 rounded-full bg-Medium-Grey flex justify-center items-center;
+}

@@ -10,7 +10,11 @@ module.exports = {
         "normal-dark-blue":"hsl(216, 12%, 25%)",
         "Light-Grey":"hsl(217, 12%, 63%)",
         "Dark-Blue": "hsl(213, 19%, 18%)",
-        "Medium-Grey": "hsl(216, 12%, 54%)"
+        "Medium-Grey": "hsl(216, 12%, 54%)",
+        "orange":"hsl(25, 97%, 53%)",
+      },
+      colors:{
+        "orange":"hsl(25, 97%, 53%)",
       },
       height:{
         "vh":"100vh",

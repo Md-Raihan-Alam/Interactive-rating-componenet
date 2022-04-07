@@ -11,9 +11,9 @@
 </head>
 <body>
   <main class="w-full h-vh bg-very-dark-blue flex justify-center items-center">
-    <div class="w-fourty h-max flex flex-col bg-Dark-Blue rounded-lg">
+    <div class="w-96 h-max flex flex-col bg-Dark-Blue rounded-lg">
       <div class="ml-20 h-24 w-full flex flex-col justify-center items-start">
-        <div class="w-12 h-12 rounded-full bg-normal-dark-blue flex justify-center items-center">
+        <div class="round_gray">
           <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.067.43 1.99 4.031c.112.228.33.386.58.422l4.45.647a.772.772 0 0 1 .427 1.316l-3.22 3.138a.773.773 0 0 0-.222.683l.76 4.431a.772.772 0 0 1-1.12.813l-3.98-2.092a.773.773 0 0 0-.718 0l-3.98 2.092a.772.772 0 0 1-1.119-.813l.76-4.431a.77.77 0 0 0-.222-.683L.233 6.846A.772.772 0 0 1 .661 5.53l4.449-.647a.772.772 0 0 0 .58-.422L7.68.43a.774.774 0 0 1 1.387 0Z" fill="#FC7614"/></svg>
         </div>
       </div>
@@ -23,14 +23,16 @@
           <div>Please let us know how we did with your support request. All feedback is appreaciated to help use improve our offering!</div>
         </div>
       </div>
-      <div>
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
+      <div class="flex justify-around my-8">
+        <div class="numbers round_gray hover:cursor-pointer hover:bg-orange" data-num="1">1</div>
+        <div class="numbers round_gray hover:cursor-pointer hover:bg-orange" data-num="2">2</div>
+        <div class="numbers round_gray hover:cursor-pointer hover:bg-orange" data-num="3">3</div>
+        <div class="numbers round_gray hover:cursor-pointer hover:bg-orange" data-num="4">4</div>
+        <div class="numbers round_gray hover:cursor-pointer hover:bg-orange" data-num="5">5</div>
       </div>
-      <button>submit</button>
+      <div class="flex justify-center items-center mb-8 rounded-t-3xl rounded-b-3xl">
+          <button class="w-5/6 bg-orange uppercase hover:bg-white hover:text-orange rounded-t-3xl rounded-b-3xl h-10 text-white">submit</button>
+      </div>
     </div>
   </main>
 </body>

@@ -25,6 +25,9 @@ module.exports = {
       },
       margin:{
         "20":"20px",
+      },
+      screens:{
+        "mobile":"400px"
       }
     },
   },

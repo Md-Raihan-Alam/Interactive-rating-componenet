@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap');
+
 /*
 ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
 */
@@ -423,7 +425,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -468,205 +470,197 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.m-3 {
+.m-3{
   margin: 0.75rem;
 }
 
-.my-8 {
+.my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-.my-9 {
+.my-9{
   margin-top: 2.25rem;
   margin-bottom: 2.25rem;
 }
 
-.my-6 {
+.my-6{
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
-.ml-20 {
+.ml-20{
   margin-left: 20px;
 }
 
-.mt-3 {
+.mt-3{
   margin-top: 0.75rem;
 }
 
-.mb-8 {
+.mb-8{
   margin-bottom: 2rem;
 }
 
-.mb-4 {
+.mb-4{
   margin-bottom: 1rem;
 }
 
-.flex {
+.flex{
   display: flex;
 }
 
-.hidden {
+.hidden{
   display: none;
 }
 
-.h-12 {
+.h-12{
   height: 3rem;
 }
 
-.h-vh {
+.h-vh{
   height: 100vh;
 }
 
-.h-max {
+.h-max{
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
 }
 
-.h-24 {
+.h-24{
   height: 6rem;
 }
 
-.h-10 {
+.h-10{
   height: 2.5rem;
 }
 
-.w-12 {
+.w-12{
   width: 3rem;
 }
 
-.w-full {
+.w-full{
   width: 100%;
 }
 
-.w-96 {
-  width: 24rem;
-}
-
-.w-11\/12 {
+.w-11\/12{
   width: 91.666667%;
 }
 
-.w-5\/6 {
+.w-5\/6{
   width: 83.333333%;
 }
 
-.w-2\/6 {
-  width: 33.333333%;
-}
-
-.w-3\/4 {
-  width: 75%;
-}
-
-.flex-col {
+.flex-col{
   flex-direction: column;
 }
 
-.items-start {
+.items-start{
   align-items: flex-start;
 }
 
-.items-center {
+.items-center{
   align-items: center;
 }
 
-.justify-center {
+.justify-center{
   justify-content: center;
 }
 
-.justify-around {
+.justify-around{
   justify-content: space-around;
 }
 
-.rounded-full {
+.rounded-full{
   border-radius: 9999px;
 }
 
-.rounded-lg {
+.rounded-lg{
   border-radius: 0.5rem;
 }
 
-.rounded-t-3xl {
+.rounded-t-3xl{
   border-top-left-radius: 1.5rem;
   border-top-right-radius: 1.5rem;
 }
 
-.rounded-b-3xl {
+.rounded-b-3xl{
   border-bottom-right-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
 }
 
-.bg-normal-dark-blue {
+.bg-normal-dark-blue{
   --tw-bg-opacity: 1;
   background-color: hsl(216 12% 25% / var(--tw-bg-opacity));
 }
 
-.bg-Medium-Grey {
+.bg-Medium-Grey{
   --tw-bg-opacity: 1;
   background-color: hsl(216 12% 54% / var(--tw-bg-opacity));
 }
 
-.bg-very-dark-blue {
+.bg-very-dark-blue{
   --tw-bg-opacity: 1;
   background-color: hsl(216 12% 8% / var(--tw-bg-opacity));
 }
 
-.bg-Dark-Blue {
+.bg-Dark-Blue{
   --tw-bg-opacity: 1;
   background-color: hsl(213 19% 18% / var(--tw-bg-opacity));
 }
 
-.bg-orange {
+.bg-orange{
   --tw-bg-opacity: 1;
   background-color: hsl(25 97% 53% / var(--tw-bg-opacity));
 }
 
-.px-4 {
+.px-4{
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.py-1 {
+.py-1{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
 
-.text-center {
+.text-center{
   text-align: center;
 }
 
-.text-justify {
+.text-justify{
   text-align: justify;
 }
 
-.text-3xl {
+.font-OverPass{
+  font-family: Overpass, sans-serif;
+}
+
+.text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
-.uppercase {
+.uppercase{
   text-transform: uppercase;
 }
 
-.text-white {
+.text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-gray-600 {
+.text-gray-600{
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
-.text-orange {
+.text-orange{
   --tw-text-opacity: 1;
   color: hsl(25 97% 53% / var(--tw-text-opacity));
 }
 
-.round_gray {
+.round_gray{
   display: flex;
   height: 3rem;
   width: 3rem;
@@ -677,7 +671,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: hsl(216 12% 25% / var(--tw-bg-opacity));
 }
 
-.round_medium_gray {
+.round_medium_gray{
   display: flex;
   height: 3rem;
   width: 3rem;
@@ -688,36 +682,27 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: hsl(216 12% 54% / var(--tw-bg-opacity));
 }
 
-.hover\:cursor-pointer:hover {
+.hover\:cursor-pointer:hover{
   cursor: pointer;
 }
 
-.hover\:bg-orange:hover {
+.hover\:bg-orange:hover{
   --tw-bg-opacity: 1;
   background-color: hsl(25 97% 53% / var(--tw-bg-opacity));
 }
 
-.hover\:bg-white:hover {
+.hover\:bg-white:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.hover\:text-orange:hover {
+.hover\:text-orange:hover{
   --tw-text-opacity: 1;
   color: hsl(25 97% 53% / var(--tw-text-opacity));
 }
 
-@media (min-width: 400px) {
-  .mobile\:mx-10 {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-  }
-
-  .mobile\:w-2\/6 {
-    width: 33.333333%;
-  }
-
-  .mobile\:w-96 {
+@media (min-width: 400px){
+  .mobile\:w-96{
     width: 24rem;
   }
 }

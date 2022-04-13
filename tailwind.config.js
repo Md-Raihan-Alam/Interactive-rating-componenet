@@ -28,7 +28,10 @@ module.exports = {
       },
       screens:{
         "mobile":"400px"
-      }
+      },
+      fontFamily: {
+        OverPass: ["Overpass", "sans-serif"],
+      },
     },
   },
   plugins: [],
